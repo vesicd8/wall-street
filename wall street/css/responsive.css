@@ -1,0 +1,181 @@
+@media screen and (min-width: 1200px) and (max-width: 1600px) {
+  #specials {
+    width: 100%;
+    padding: 0px 30px;
+  }
+  #chef .wrapper {
+    width: 100%;
+  }
+  #aboutUs #aboutUsImage {
+    width: 45%;
+  }
+  #aboutUs #aboutUsText {
+    width: 55%;
+  }
+}
+
+@media screen and (max-width: 1040px) {
+  .wrapper {
+    width: 100%;
+  }
+  #specials {
+    width: 100%;
+  }
+  #aboutUs #aboutUsImage {
+    width: 45%;
+  }
+  #aboutUs #aboutUsText {
+    width: 55%;
+  }
+}
+
+@media screen and (max-width: 840px) {
+  .wrapper {
+    width: 100%;
+  }
+  #specials {
+    width: 100%;
+    padding: 0px 30px;
+  }
+  .special {
+    width: 30%;
+  }
+  #aboutUs {
+    display: unset;
+  }
+  #aboutUs #aboutUsImage {
+    width: 100%;
+    height: 50vh;
+  }
+  #aboutUs #aboutUsText {
+    width: 100%;
+  }
+  #menuSection .wrapper {
+    padding: 0px 30px;
+  }
+  #chef .wrapper {
+    display: unset;
+  }
+  #chef .wrapper .chefInfo {
+    width: 100%;
+  }
+  #chef .wrapper .chefInfo p {
+    font-size: 16px;
+  }
+  #chef .wrapper .chefInfo h5 {
+    font-size: 30px;
+  }
+  .slick-slider {
+    display: none !important;
+  }
+}
+
+@media screen and (max-width: 640px) {
+  header #logo #middle {
+    width: 200px;
+    height: 200px;
+  }
+  header nav ul li a {
+    font-size: 11px !important;
+  }
+  #specials {
+    -webkit-box-pack: unset;
+        -ms-flex-pack: unset;
+            justify-content: unset;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  #specials .special {
+    width: 80%;
+    height: 25vh;
+    margin-bottom: 150px;
+  }
+  #specials .special:last-child {
+    margin-bottom: 0px;
+  }
+  #menuSection .wrapper > div {
+    width: 100%;
+  }
+  footer #footerContainer .wrapper {
+    padding: 0px 30px;
+  }
+  #footerBottom .wrapper {
+    padding: 0px 30px;
+  }
+  #aboutUs #aboutUsText {
+    padding: 30px;
+  }
+  header nav ul li a {
+    font-size: 14px;
+  }
+  #menuSection .wrapper > div div span:last-child {
+    font-size: 14px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  header nav ul li a {
+    font-size: 10px !important;
+    font-weight: bold;
+  }
+  h1 {
+    font-size: 20px;
+  }
+  #aboutUs #aboutUsImage {
+    height: 30vh;
+  }
+  #aboutUs #aboutUsText p {
+    font-size: 15px;
+  }
+  h6 {
+    font-size: 15px;
+  }
+  footer #footerContainer .wrapper {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+  }
+  footer #footerContainer .wrapper .footerInfo {
+    width: 100%;
+    margin-bottom: 50px;
+  }
+  #footerBottom .wrapper .credits i {
+    font-size: 20px;
+  }
+  #formFooter, #formHeader {
+    -ms-flex-wrap: unset;
+        flex-wrap: unset;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  #formHeader .polje {
+    width: 80%;
+  }
+  .credits {
+    width: 50%;
+  }
+  #aboutUs #aboutUsText {
+    padding: 13px;
+  }
+  #aboutUs #aboutUsText p {
+    font-size: 13px;
+  }
+}
+/*# sourceMappingURL=responsive.css.map */
