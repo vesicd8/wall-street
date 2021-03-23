@@ -1,1 +1,1 @@
-# Wall Street - static website built with html, css and JS
+# Wall Street | html, css, JS
